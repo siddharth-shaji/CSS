@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::before{
+            content:"hii";
+        }
+        h1::after{
+            content:"hoo";
+        }
+        h1::first-letter{
+            color: blueviolet;
+        }
+        p::selection{
+            color: aquamarine;
+        }
+        p::first-line{
+            color:blue;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo</h1>
+    <p>Lorem ipsum dolor sit <span>amet consectetur </span> adipisicing elit. Blanditiis veritatis nostrum vero repellat obcaecati quo quia aperiam, id, amet aspernatur expedita? Similique fugiat cumque labore omnis tempora? Voluptatibus necessitatibus beatae, illo quas adipisci laudantium praesentium quasi repellat esse error ducimus laboriosam reprehenderit sequi iste quos veritatis ex veniam excepturi molestiae.</p>
+</body>
+</html>
