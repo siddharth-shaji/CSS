@@ -1,0 +1,31 @@
+/* .class{
+    position: absolute; 
+    right :px;
+    top: 30px;
+    height: 100px;
+    width:100px;
+    gap: 30px
+} */
+ .f{
+    position: static;
+    /* top: 20px;
+    right: 50px; */
+ }
+
+.map {
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+}
+header{
+   background-color: rgb(rgb(228, 164, 255) green blue / alpha); 
+   border: 1px solid;
+}
+.as{
+   position: absolute; 
+   right :20px;
+   top: 30px;
+   
+}
