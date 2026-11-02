@@ -5,23 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .grid-container{
-            display:grid;
+        /* .grid-container{
+            display:grid; */
             /* grid-template-rows: 1fr 2fr; */
             /* grid-template-columns: 1fr 2fr 3fr; */
             /* grid-template-areas: 1fr 2fr; */
 
-            height: 100px;
+            /* height: 100px;
             align-items: center;
             
-        }
-        .grid-items{
+        } */
+        /* .grid-items{
             width:100px;
             height: 100px;
             background-color: aqua;
             margin:5px;
+        } */       
+
+        *{
+            margin: 0;
+            padding: 0;
         }
-    </style>
+
+         .grid-container{
+             height: 100vh ;
+            display: grid;
+           grid-template-columns: repeat(2,200px);
+            grid-template-rows: repeat(4,150px);
+            
+            place-content: start;
+            align-items: center;
+            justify-items: end;
+            place-items: center;
+            gap: 6px; 
+
+            /* align-content: space-around; 
+             justify-content: space-between; */
+
+        }
+        .grid-items{
+           background-color: blue;
+           height: 100px;
+           width: 100px;
+        }
+        .last{
+            align-self:end;
+            justify-self:end;
+            place-self: start;
+        }
+        </style>
 </head>
 <body>
     <div class="grid-container">
@@ -31,10 +63,7 @@
         <div class="grid-items">4</div>
         <div class="grid-items">5</div>
         <div class="grid-items">6</div>
-        <div class="grid-items">7</div>
-        <div class="grid-items">8</div>
-        <div class="grid-items">9</div>
-        <div class="grid-items">10</div>
+        <div class="grid-items last">7</div>
     </div>
 </body>
 </html>
