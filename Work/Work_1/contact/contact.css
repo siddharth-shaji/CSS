@@ -11,6 +11,21 @@
     /* top: 20px;
     right: 50px; */
  }
+
+ header{
+   border: 1px solid;
+   background-color: rgb(6, 50, 67);
+   color: white;
+
+}
+   
+ul {
+   display: flex;
+   gap: 30px;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
  
 
 .map {
@@ -19,14 +34,41 @@
     left: 200px;
     width: 400px;
     height: 300px;
+   background-color:rgb(54,54,455);
 }
-header{
-   background-color: rgb(rgb(228, 164, 255) green blue / alpha); 
-   border: 1px solid;
-}
+
 .as{
    position: absolute; 
    right :20px;
    top: 30px;
-   
+}
+
+ul {
+   display: flex;
+   gap: 30px;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}  
+
+.h1 {
+   color:white;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: #eef4fa;
+   color: #24354e;
+}
+form{
+   border: snow 1px;
+   border-color:rgb(65, 96, 107);
+
+}
+footer{
+   background-color: #102a43;
+   color: white;
+   text-align: center;
 }
