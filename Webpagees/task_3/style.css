@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-decoration: none; */
+        margin-left: 20px;
+}
+.logo{
+    color: rgb(249, 249, 247);
+    
+}
+ul{
+    display: flex;
+        justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-right: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(249, 249, 247);
+
+}
+.section {
+    text-align: left;
+    margin-top: 100px;
+    padding: 20px;
+}
+body{
+    background-color: rgb(162, 49, 49);
+}
+
