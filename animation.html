@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(157, 255, 66);
+            animation-name: animation;
+            animation-duration:5s ;
+
+            /* animation-iteration-count:3; */
+            /* animation-timing-function: ease; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function:ease-out */
+            /* animation-timing-function:ease-in-out */
+            /* animation-timing-function: linear; */
+
+            /* animation-direction: alternate; */   
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate-reverse; */
+            /* direction used to determine in which direction forward or backward */
+
+            /* animation-delay: 3s; */
+            animation-fill-mode: both;
+            /* animation-play-state: paused */
+
+
+         }
+         @keyframes animation {
+            0%{
+                background-color: blueviolet;
+            }
+            50%{
+                background-color: black;
+            }
+            70%{
+                background-color: blue;
+            }
+            100%{
+                background-color: aquamarine;
+                width:300px
+            }
+            
+         }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
