@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            /* background-color: blueviolet; */
+            animation-name:ani;
+            animation-duration:5s;
+            animation-iteration-count: 1;
+
+        }
+        @keyframes ani{
+            0%{
+                transform: translate(0,0);
+                background-color: aqua;
+            }
+            25%{
+                transform:translate(200px,0);
+                background-color: black;
+            }
+            50%{
+                transform: translate(200px,200px);
+                background-color: blueviolet;
+            }
+            75%{
+                transform:translate(0,200px);
+                background-color: brown;
+            }
+            100%{
+                transform:translate(0,0);
+            }
+
+
+        }
+
+        /* @keyframes ani {
+  0% {
+    transform: translate(0, 0); 
+  }
+  25% {
+    transform: translate(200px,o); 
+  }
+  50% {
+    transform: translate(200px,200px); 
+  }
+  75%{
+    transform: translate(0,200px);
+  }
+  100% {
+    transform: translateX(0,200px);
+  }
+  
+} */
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
