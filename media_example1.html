@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .grid_item{
+            width: 150px;
+            height: 150px;
+            background-color: blueviolet;
+            margin: 4px;
+        }
+        @media screen and (max-width:1032px){
+            .grid_items{
+                width: 230px;
+            }
+        .grid_container{
+            margin-left: 10px;
+        }   
+
+        }
+
+        @media screen and (max-width:768px){
+            .grid-items{
+                width: 160px;
+            }
+        }
+
+        @media screen and (max-width:360px){
+            .grid_container{
+                grid-template-columns: 1fr 1fr;
+                margin:1px;
+                margin-left: 9px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="grid_item"></div>
+        <div class="grid_item"></div>
+        <div class="grid_item"></div>
+        <div class="grid_item"></div>
+    </div>
+</body>
+</html>
